@@ -19,7 +19,7 @@ public class TelaInicial extends javax.swing.JFrame {
         initComponents();
         this.setTitle("Exemplo de Manter Pessoas");
         
-        this.setExtendedState(MAXIMIZED_BOTH);
+        //this.setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
