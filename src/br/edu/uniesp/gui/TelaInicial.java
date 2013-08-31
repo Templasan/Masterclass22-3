@@ -16,10 +16,15 @@ public class TelaInicial extends javax.swing.JFrame {
      * Creates new form TelaInicial
      */
     public TelaInicial() {
+        
+        
+        
+        
+        new Login(this, true).setVisible(true);
         initComponents();
         this.setTitle("Exemplo de Manter Pessoas");
         
-        //this.setExtendedState(MAXIMIZED_BOTH);
+        this.setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
